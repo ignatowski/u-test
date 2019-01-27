@@ -8,14 +8,14 @@ Clone the repository
 
 Start Docker
 
-In a terminal cd to the repository
+In a terminal cd to the `build` directory in the repository
 
 Start up the container with:
 ```
 $ docker-compose up
 ```
 
-To run the scripts open a new terminal and cd to the repository
+To run the scripts open a new terminal and cd to the `build` directory in the repository
 
 Enter the container with:
 ```
