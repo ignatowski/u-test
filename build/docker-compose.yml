@@ -1,0 +1,13 @@
+version: '3'
+services:
+  u-test-server:
+      build:
+        context: ./
+        dockerfile: Dockerfile
+      hostname: 'u-test-server'
+      container_name: 'u-test-server'
+      volumes:
+        - '../server:/opt/src'
+      working_dir: '/opt/src'
+      stdin_open: true
+      tty: true
